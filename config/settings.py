@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'task',
 ]
 
@@ -82,7 +83,7 @@ DATABASES = {
         'USER': 'hello',
         'PASSWORD': '1',
         'HOST': 'db',
-        'PORT': '5432'
+        'PORT': '5432',
     }
 }
 
